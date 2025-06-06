@@ -1,0 +1,78 @@
+body {
+  background-image:url("https://i.pinimg.com/736x/1e/fa/45/1efa45d91ff9eb2d3820db8537072282.jpg"); /* fondo del body */
+  color: rgb(253, 0, 0); /* color de texto */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de letra */
+  font-size: 16px; /* tamaño letra */
+  background-size: cover; /* (opcional) para cubrir toda la pantalla */
+  background-repeat: no-repeat; /* (opcional) para que no se repita */
+  background-position: center; /* (opcional) centrado */
+}
+
+
+label{
+display: block; /*cada etiqueta ocupa su propia linea*/
+margin: 0.1rem 0; /*pequeño espacio vertical entre etiquetas*/
+}
+
+
+h1, p{
+margin: 0.5 auto;
+text-align: center;
+}
+
+
+form{
+padding-top: 0em; 
+margin: 0 auto;
+max-width: 500px;
+min-width: 300px;
+width: 60vw;
+padding: 1em;
+}
+
+fieldset{
+border: 0;
+padding: 0.5rem 0;
+border-bottom: 3px springgreen;
+}
+
+
+fildset:last-of-type{
+border-bottom: none;
+
+}
+
+label{
+display: block;
+margin: 0.5rem 0;
+}
+
+input,textarea,select{
+margin: 10px 0 0 0;
+width: 100%;
+min-height: 2em;
+}
+
+
+.inline{
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+
+
+input[type="subbmit"]{
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 1.1rem;
+background-color: rgb(0, 0, 0);
+min-width: 300px;
+}
+
+input[type="file"]{
+padding: 1px 2px;
+}
+a{
+  color: rgb(19, 42, 172);
+}
